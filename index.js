@@ -20,7 +20,7 @@ client.giveawaysManager = new GiveawaysManager(client, {
     }
   }
 });
-//Coded by ZeroSync on yt
+//Coded by pathik on rooter
 
 /* Load all events (discord based) */
 
