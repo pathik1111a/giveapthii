@@ -8,10 +8,6 @@ module.exports.run = async (client, message, args) => {
         .setLabel(`Invite ${client.user.username}`)
         .setStyle('LINK')
         .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
-        new MessageButton()
-        .setLabel('Support Server')
-        .setStyle('LINK')
-        .setURL("https://discord.gg/ARu4hr6hJw"),
     )
     let invite = new MessageEmbed()
     .setAuthor(`Invite ${client.user.username} `, client.user.avatarURL())
@@ -19,6 +15,6 @@ module.exports.run = async (client, message, args) => {
     .setDescription(`Invite ${client.user} to your server today & enjoy seamless giveaways with advvanced features!`)
     .setColor('#2F3136')
     .setTimestamp()
-    .setFooter(`Requested by ${message.author.tag} | GiveawayBot™ v3 By ZeroSync`, message.author.displayAvatarURL())
+    .setFooter(`Requested by ${message.author.tag} | GiveawayBot™ v3 By Pathik`, message.author.displayAvatarURL())
     message.reply({ embeds: [invite], components: [row]});
 }
