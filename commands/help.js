@@ -25,7 +25,7 @@ const embed = new MessageEmbed()
     { name: 'Resume' , value: `Resume a paused giveaway!\n > **Type: __\`slash\`__**`, inline: true },
   )
   .setTimestamp()
-  .setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, message.author.displayAvatarURL());
+  .setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By Pathik`, message.author.displayAvatarURL());
 
 
   const general = new MessageEmbed()
@@ -38,7 +38,7 @@ const embed = new MessageEmbed()
     { name: 'Ping' , value: `Check the bot's websocket latency!\n > **Types: __\`slash\` / \`message\`__**`, inline: true },
   )
   .setTimestamp()
-  .setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, message.author.displayAvatarURL());
+  .setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By Pathik`, message.author.displayAvatarURL());
 
   const components = (state) => [
     new MessageActionRow().addComponents(
