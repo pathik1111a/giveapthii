@@ -9,7 +9,7 @@ const embed = new MessageEmbed()
 .setColor('#2F3136')
 .setDescription('**Please Select a category to view all its commands**')
 .setTimestamp()
-.setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, message.author.displayAvatarURL());
+.setFooter(`Requested by ${message.author.username} | GiveawayBot™ v3 By Pathik`, message.author.displayAvatarURL());
 
   const giveaway = new MessageEmbed()
   .setTitle("Categories » Giveaway")
