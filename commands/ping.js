@@ -10,7 +10,6 @@ module.exports.run = async (client, message, args) => {
     .setTimestamp()
     .addField("Latency", `${m.createdTimestamp - message.createdTimestamp}ms`, true)
     .addField("API Latency", `${Math.round(client.ws.ping)}ms`, true)
-    .addField("Server count",`${client.users.cache.size}\``},
     .setFooter(`Requested by ${message.author.tag}`, message.author.displayAvatarURL());
      m.delete()
   message.reply({ content: " ", embeds: [pong] })
